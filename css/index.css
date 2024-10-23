@@ -1,74 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
 header {
-
-
-    width: 100;
-    height: 200px;
-    padding: 5rem;
-    text-align: center;
-    background-image: url("../img/banner.jpg");
+  width: 100;
+  height: 200px;
+  padding: 5rem;
+  text-align: center;
+  background-image: url("../img/banner.jpg");
+  
 }
 
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: aliceblue;
+  font-size: 60px;
+  text-align: center;
+  font-family:sans-serif;
+}
 
- h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.anchors {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: start;
+  font-family:sans-serif;
+  font-weight: bold;
+  margin-top: 10%;
+  color: rgb(209, 254, 254);
+}
+
+.anchor1 {
+    width: 10%;  
+}
+
+.anchor2 {
+    width: 10%;  
+}
+
+.anchor3 {
+    width: 10%;  
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    transition: color 0.4s ease;
     color: aliceblue;
-    font-size: 60px;
-    text-align: center;
- }
-
-
- .anchors{
-    width: 60%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    justify-content: space-between;
- }
-
-
- a{
-    background-color: aquamarine;
-    width: 20%;
-    height: 20%;
- }
-
-
-.imageProfile{
-    width: 300px;
-    height: 300px;
-    border-radius: 10%;
-    transition: transform 0.5s ease;
 }
 
+a:hover{
+    color: rgb(11, 212, 234);
+    
+}
+
+/*-----------------------------MAIN----------------------------*/
+h2{
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+.imageProfile {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
 
 .imageProfile:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 
 .aboutUs {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-
-.aboutUsJeni{
-    display: flex;
-    justify-content: center;
-    padding: 3%;
+.aboutUsJeni {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
 }
 
-
-.aboutUsInma{
-    display: flex;
-    justify-content: center;
-    padding: 3%;
+.aboutUsInma {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
 }
-
 
 p {
-    width: 30%;
-    padding: 3%;
-    font-size: 20px;
+  width: 30%;
+  padding: 3%;
+  font-size: 20px;
 }
