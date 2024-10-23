@@ -13,8 +13,14 @@ header {
   height: 200px;
   padding: 5rem;
   text-align: center;
-  background-image: url("../img/banner.jpg");
-  
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("../img/banner.jpg");
+  background-color: transparent;
+
 }
 
 h1 {
@@ -86,20 +92,41 @@ h2{
   flex-direction: column;
 }
 
-.aboutUsJeni {
+.aboutUsJeni, .aboutUsInma {
   display: flex;
   justify-content: center;
   padding: 3%;
 }
 
-.aboutUsInma {
-  display: flex;
-  justify-content: center;
-  padding: 3%;
-}
 
 p {
   width: 30%;
   padding: 3%;
   font-size: 20px;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: aliceblue;
+    margin-top: 5%;
+   
+}
+
+.hobbiesJeni, .hobbiesInma{
+  background-color: rgb(23, 52, 111);
+  padding: 5rem;
+  border-radius: 20%;
+  transition: background-color 0.5s ease;
+}
+
+.hobbiesJeni:hover, .hobbiesInma:hover {
+  background-color: rgb(54, 101, 195);
+
+}
+
+.pHobbies {
+  width: 100%;
 }
