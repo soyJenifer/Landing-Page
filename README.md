@@ -8,7 +8,7 @@ Espero que os guste. 🤝
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='html5' src='https://img.shields.io/badge/HTML5-100000?style=for-the-badge&logo=html5&logoColor=white&labelColor=F16529&color=F16529'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='css3' src='https://img.shields.io/badge/CSS3-100000?style=for-the-badge&logo=css3&logoColor=white&labelColor=3C9CD7&color=3C9CD7'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='github' src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000'/></a>
-<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='canva' src='https://img.shields.io/badge/canva-100000?style=for-the-badge&logo=canva&logoColor=white&labelColor=00C4CC&color=00C4CC'/></a>
+
 
 ---
 ## 💬ɴᴜᴇꜱᴛʀᴏꜱ ᴄᴏɴᴛᴀᴄᴛᴏꜱ ;)
