@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 *{
 margin: 0;
 padding: 0;
@@ -20,6 +24,8 @@ header {
   ),
   url("../img/banner.jpg");
   background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
 
 }
 
@@ -99,7 +105,7 @@ h2{
 }
 
 
-p {
+#pAboutUs {
   width: 30%;
   padding: 3%;
   font-size: 20px;
@@ -131,20 +137,42 @@ p {
   width: 100%;
 }
 
-.petNina{
-display: flex;
-flex-direction: column;
-background-color: rgb(23, 52, 111);
-width: 500px;
-height: 500px;
+#photoPets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
 }
 
-#photoNina{
-  width: 300px;
-  height: 300px;
+#pPets{
+  display: flex;
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: aliceblue;
+  border-radius: 5%;
+  width: 48%;
+  height: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  padding: 2rem;
+}
+
+.ourPets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
-#pNina{
-  font-size: 15px;
+.pet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

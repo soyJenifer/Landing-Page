@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,8 +13,8 @@
       </div>
       <div class="anchors">
         <div class="anchor1"><a href="#aboutUs">About Us</a></div>
-        <div class="anchor2"><a href="#hobbies">Hobbies</a></div>
-        <div class="anchor3"><a href="#pets">Pets</a></div>
+        <div class="anchor2"><a href="#ourHobbies">Hobbies</a></div>
+        <div class="anchor3"><a href="#ourPets">Pets</a></div>
       </div>
     </header>
     <main>
@@ -23,10 +23,10 @@
         <div class="aboutUsJeni">
           <img
             class="imageProfile"
-            src="/img/photoJeni.jpeg"
+            src="img/photoJeni.jpeg"
             alt="profile picture Jeni"
           />
-          <p>
+          <p id="pAboutUs">
             Mi nombre es Jenifer Moyano Sanromá, tengo 17 años y soy de
             Barcelona-España, cuando tenía 6 años me mude junto a mi familia a
             Ecuador (el país de mi padre) y volví después de 11 años.
@@ -38,7 +38,7 @@
             src="img/photoInma.jpg"
             alt="profile picture Inma"
           />
-          <p>
+          <p id="pAboutUs">
             Mi nombre es Inma y actualmente tengo 21 años, estudié artes en la
             Escuela de San Telmo y entre en la carrera de Diseño gráfico la cual
             deje, al año empece a estudiar por mi cuenta algunos lenguajes y a
@@ -46,66 +46,70 @@
           </p>
         </div>
       </div>
-      <h2>Our Hobbies</h2>
+      <h2 id="ourHobbies">Our Hobbies</h2>
       <div class="hobbies">
-      <div class="hobbiesJeni" id="hobbies">
-        <p class="pHobbies">Aficiones de Jenifer</p>
-        <ul>
-          <li>Escuchar música</li>
-          <li>Leer</li>
-          <li>Ver anime/manga</li>
-          <li>Escribir</li>
-        </ul>
+        <div class="hobbiesJeni" id="hobbies">
+          <p class="pHobbies">Aficiones de Jenifer</p>
+          <ul>
+            <li>Escuchar música</li>
+            <li>Leer</li>
+            <li>Ver anime/manga</li>
+            <li>Escribir</li>
+          </ul>
+        </div>
+        <div class="hobbiesInma">
+          <p class="pHobbies">Aficiones de Inma</p>
+          <ul>
+            <li>Tocar la guitarra</li>
+            <li>Pintar</li>
+            <li>Ver series</li>
+            <li>Jugar videojuegos</li>
+          </ul>
+        </div>
       </div>
-      <div class="hobbiesInma">
-        <p class="pHobbies">Aficiones de Inma</p>
-        <ul>
-          <li>Tocar la guitarra</li>
-          <li>Pintar</li>
-          <li>Ver series</li>
-        </ul>
-      </div>
-    </div>i
-      <h2>Our Pets</h2>
-      <h2>Mascotas de Jenifer</h2>
-      <div class="petNina" id="pets">
-        <img src="/img/photoNiña.jpg" id="photoNina"
-        alt="foto de la perrita de Jenifer llamada Niña, raza french poodle 
-        mini de pelaje color negro y con el pecho de color blanco">
-        <p id="pNina">
-          La perrita de Jenifer se llama Niña, tiene 8 años y su raza es 
-          french poodle mini de pelaje color negro y con el pecho de color blanco.
-          Es una perrita muy juguetona y a la vez muy dormilona. Aunque coma de 
-          todo, la cosa que más le gusta es el pollo.
-        </p>
-      </div>
-
-      <p>Mascotas de Inma</p>
-      <div class="pets" id="pets">
-        <img src="/img/petRyu.jpeg" 
-        alt="...">
-        <p>
-          (Ryu)
-        </p>
-        <img src="/img/petPancho.jpg" 
-        alt="...">
-        <p>
-          (Pancho)
-        </p>
-        <img src="/img/petBael.jpeg" 
-        alt="...">
-        <p>
-          (Bael)
-        </p>
+      <h2 id="ourPets">Our Pets</h2>
+      <div class="ourPets">
+        <div class="pet">
+          <h3>Mascota de Jeni</h3>
+          <img src="img/photoNiña.jpg" id="photoPets" alt="photo dog Jenn¡i" />
+          <p id="pPets">
+            La perrita de Jenifer se llama Niña, tiene 8 años y su raza es
+            french poodle mini de pelaje color negro y con el pecho de color
+            blanco. Es una perrita muy juguetona ademas de dormilona y su comida
+            favorita es el pollo.
+          </p>
+        </div>
+        <div class="pet">
+          <h3>Mascota de Inma</h3>
+          <img src="img/petRyu.jpeg" id="photoPets" alt="photo snake Inma" />
+          <p id="pPets">
+            Este pequeñin se llama Ryu, es una serpiente de maiz fase snow y que
+            ya tengo de hace casi 5 años. Es muy tranquila en comparación de su
+            hermana Shiva (mi otra serpiente), que es mucho mas revoltosa.
+          </p>
+        </div>
+        <div class="pet">
+          <h3>Mascota de Inma</h3>
+          <img src="img/petPancho.jpg" id="photoPets" alt="photo dog Inma" />
+          <p id="pPets">
+            Este pequeño es Pancho, un perrito que supuestamente un chihuahua,
+            tiene unos 12 años y es muy jugueton pero lo que mas le gusta es
+            dormir, también es muy comilo, podria estar todo el dia comiendo.
+          </p>
+        </div>
       </div>
     </main>
     <footer>
-      <br>
+      <br />
       <h3>Contáctanos:</h3>
-      <a href="mailto:inmagonzalez045@gmail.com">Inma: inmagonzalez045@gmail.com</a>
-      <br>
-      <a href="mailto:jenifermoyano2006@gmail.com">Jenifer: jenifermoyano2006@gmail.com</a>
-      <br>
+      <a href="mailto:inmagonzalez045@gmail.com"
+        >Inma: inmagonzalez045@gmail.com</a
+      >
+      <br />
+      <a href="mailto:jenifermoyano2006@gmail.com"
+        >Jenifer: jenifermoyano2006@gmail.com</a
+      >
+      <br />
       <p>Inma y Jenifer © 2024. xd</p>
     </footer>
   </body>
