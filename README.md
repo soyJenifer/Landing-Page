@@ -1,6 +1,3 @@
-![landing-page](https://github.com/user-attachments/assets/73cf0ac2-dc0e-4c60-8815-6f715c6e7630)
-
----
 ## ⚡ɪɴꜰᴏʀᴍᴀᴄɪóɴ
 Este es un proyecto en el cual Inma González y Jenifer Moyano trabajaremos juntas, este proyecto consiste en presentarnos mutuamente por medio de un archivo HTML.
 Aquí hablaremos un poco sobre nuestra vida, nuestras aficiones y nuestras mascotas (si es que os interesa) realizando cada una un commit cada 30 minutos para ayudarnos a practicar esta forma de trabajar en equipo.
