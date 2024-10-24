@@ -167,7 +167,10 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+#ourPets{
+  margin-top: 10%;
 }
 
 .pet {
@@ -175,4 +178,21 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.e-mail{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+
+}
+
+footer{
+  text-align: center;
+  padding: 3rem;
+  background-color: rgb(23, 52, 111);
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 10%;
+
 }
