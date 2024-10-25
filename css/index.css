@@ -1,32 +1,30 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-*{
-margin: 0;
-padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(204, 204, 204);
+  background-color: rgb(204, 204, 204);
 }
 
 header {
   width: 100;
-  height: 200px;
+  height: 70px;
   padding: 5rem;
   text-align: center;
   background-image: linear-gradient(
-    to bottom,
-    rgb(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),
-  url("../img/banner.jpg");
+      to bottom,
+      rgb(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/banner.jpg");
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
 h1 {
@@ -34,51 +32,37 @@ h1 {
   color: aliceblue;
   font-size: 60px;
   text-align: center;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
-.anchors {
+nav {
   display: flex;
-  text-align: center;
-  justify-content: center;
   justify-content: start;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
-  margin-top: 10%;
-  color: rgb(209, 254, 254);
+  margin-top: 3%;
+  color: rgb(24, 42, 184);
+  margin-left: 5%;
+  gap: 7%;
 }
 
-.anchor1 {
-    width: 10%;  
+nav a {
+  text-decoration: none;
+  list-style: none;
+  transition: color 0.4s ease;
+  color: rgb(20, 30, 118);
 }
 
-.anchor2 {
-    width: 10%;  
+nav a:hover {
+  color: rgb(11, 212, 234);
 }
 
-.anchor3 {
-    width: 10%;  
-}
-
-a{
-    text-decoration: none;
-    list-style: none;
-    transition: color 0.4s ease;
-    color: aliceblue;
-}
-
-a:hover{
-    color: rgb(11, 212, 234);
-    
-}
-
-/*-----------------------------MAIN----------------------------*/
-h2{
-    text-align: center;
-    font-family:sans-serif;
-    font-weight: bold;
-    margin-top: 5%;
-    font-size: 50px;
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 50px;
 }
 
 .imageProfile {
@@ -98,12 +82,12 @@ h2{
   flex-direction: column;
 }
 
-.aboutUsJeni, .aboutUsInma {
+.aboutUsJeni,
+.aboutUsInma {
   display: flex;
   justify-content: center;
   padding: 3%;
 }
-
 
 #pAboutUs {
   width: 30%;
@@ -112,32 +96,32 @@ h2{
 }
 
 .hobbies {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    color: aliceblue;
-    margin-top: 5%;
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  color: aliceblue;
+  margin-top: 5%;
 }
 
-.hobbiesJeni, .hobbiesInma{
+.hobbiesJeni,
+.hobbiesInma {
   background-color: rgb(23, 52, 111);
   padding: 5rem;
   border-radius: 20%;
   transition: background-color 0.5s ease;
 }
 
-.hobbiesJeni:hover, .hobbiesInma:hover {
+.hobbiesJeni:hover,
+.hobbiesInma:hover {
   background-color: rgb(54, 101, 195);
-
 }
 
 .pHobbies {
   width: 100%;
 }
 
-#photoPets{
+#photoPets {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,7 +130,7 @@ h2{
   border-radius: 10%;
 }
 
-#pPets{
+#pPets {
   display: flex;
   font-size: 17px;
   text-align: center;
@@ -156,7 +140,7 @@ h2{
   border-radius: 5%;
   width: 48%;
   height: 50%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h3 {
@@ -169,7 +153,7 @@ h3 {
   justify-content: center;
 }
 
-#ourPets{
+#ourPets {
   margin-top: 10%;
 }
 
@@ -180,19 +164,28 @@ h3 {
   align-items: center;
 }
 
-.e-mail{
+.e-mail {
   display: flex;
   justify-content: center;
   gap: 5%;
-
 }
 
-footer{
+.aEmail {
+  color: aliceblue;
+  text-decoration: none;
+  list-style: none;
+  transition: color 0.4s ease;
+}
+
+.aEmail:hover {
+  color: rgb(11, 212, 234);
+}
+
+footer {
   text-align: center;
   padding: 3rem;
   background-color: rgb(23, 52, 111);
   color: aliceblue;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 10%;
-
 }
